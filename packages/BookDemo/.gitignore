@@ -15,4 +15,4 @@ trash
 lerna*.log
 yarn*
 
-./lib
+/lib
