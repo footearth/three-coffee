@@ -1,5 +1,5 @@
 import THREE, { Renderer as THREE_Render } from 'three-coffee.core'
-import BookDemo from 'three-coffee.bookdemo'
+import BookDemo from 'three-coffee.example.bookdemo'
 
 drawProgram = ({
   width

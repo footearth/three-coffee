@@ -7,7 +7,7 @@ export default
   test: []
   keep: [
     'three-coffee.core'
-    'three-coffee.bookdemo'
+    'three-coffee.example.bookdemo'
   ]
   devdep: [
     'autod'

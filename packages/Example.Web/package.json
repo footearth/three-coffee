@@ -8,7 +8,7 @@
   "main": "public/index.html",
   "private": true,
   "scripts": {
-    "clean": "rimraf ./.cache; make clean",
+    "clean": "rimraf ./.cache ./dist ./public ./src",
     "build": "make build",
     "rebuild": "make rebuild",
     "start": "parcel ./public/index.html"
@@ -17,7 +17,7 @@
     "cfx.require-plugin-coffee": "~0.2.21",
     "ddeyes": "~0.2.15",
     "rimraf": "^2.6.3",
-    "three-coffee.bookdemo": "^0.0.0",
+    "three-coffee.example.bookdemo": "^0.0.0",
     "three-coffee.core": "^0.0.0"
   },
   "devDependencies": {
