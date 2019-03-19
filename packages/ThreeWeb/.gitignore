@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+npm-debug.log
+package-lock.json
+*_book
+
+.tmp
+trash
+
+/**/bower_components
+/**/node_modules
+/**/dist
+/**/build
+
+lerna*.log
+yarn*
+

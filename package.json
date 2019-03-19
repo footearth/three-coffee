@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "lernaclean": "lerna clean --yes",
+    "lernabootstrap": "lerna bootstrap",
+    "rebootstrap": "npm run lernaclean; npm run lernabootstrap",
+    "cleanall": "lerna run clean; npm run lernaclean; lerna exec -- \"rm -rf ./yarn* ./package-lock.json\"",
+    "rebootall": "npm run cleanall; npm run lernabootstrap",
+    "autod": "autod",
+    "updated": "lerna run autod; lerna updated"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "cfx.simple-build-tool": "^0.0.13",
+    "lerna": "^3.13.1"
+  },
+  "dependencies": {
+    "cfx.require-plugin-coffee": "~0.2.21",
+    "ddeyes": "~0.2.15"
+  }
+}

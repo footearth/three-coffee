@@ -1,0 +1,39 @@
+{
+  "name": "three-coffee.core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "footearth <footearth@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "private": true,
+  "scripts": {
+    "autod": "autod",
+    "clean": "rimraf ./lib",
+    "build": "gulp build",
+    "rebuild": "gulp rebuild",
+    "postinstall": "gulp rebuild"
+  },
+  "dependencies": {
+    "cfx.require-plugin-coffee": "~0.2.21",
+    "ddeyes": "~0.2.15",
+    "three": "~0.102.1"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "cfx.rollup-plugin-coffee2": "^0.2.21",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-better-rollup": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "rimraf": "^2.6.3",
+    "rollup-plugin-cleanup": "^3.1.1"
+  }
+}
