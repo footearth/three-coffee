@@ -23,6 +23,7 @@ export default
     'rollup-plugin-cleanup'
     'cfx.rollup-plugin-coffee2'
 
+    'rimraf'
   ]
   semver: [
   ]

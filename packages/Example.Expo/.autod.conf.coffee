@@ -8,18 +8,25 @@ export default
   keep: [
     'three-coffee.core'
     'three-coffee.example.bookdemo'
+    'react-native'
   ]
   devdep: [
     'autod'
+    'babel-preset-expo'
     'cfx.simple-build-tool'
     'cfx.require-plugin-coffee'
-    'parcel-bundler'
     'rimraf'
   ]
   dep: [
+    '@babel/plugin-proposal-decorators'
+    '@babel/plugin-transform-runtime'
     'ddeyes'
+    'expo'
+    'expo-graphics'
+    'react'
   ]
   semver: [
+    'schedule@0.4.0'
   ]
   exclude: [
     './sources'
@@ -27,6 +34,6 @@ export default
     './src'
     './public'
     './publish'
-    './.cache'
+    './.expo' 
     './.autod.conf.js'
   ]

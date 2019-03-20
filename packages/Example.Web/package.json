@@ -14,14 +14,13 @@
     "start": "parcel ./public/index.html"
   },
   "dependencies": {
-    "cfx.require-plugin-coffee": "~0.2.21",
-    "ddeyes": "~0.2.15",
-    "rimraf": "^2.6.3",
-    "three-coffee.example.bookdemo": "^0.0.0",
-    "three-coffee.core": "^0.0.0"
+    "ddeyes": "^0.2.15",
+    "three-coffee.core": "^0.0.0",
+    "three-coffee.example.bookdemo": "^0.0.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
+    "cfx.require-plugin-coffee": "^0.2.21",
     "cfx.simple-build-tool": "^0.0.13",
     "parcel-bundler": "^1.12.2",
     "rimraf": "^2.6.3"
